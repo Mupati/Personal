@@ -1,0 +1,48 @@
+header{
+    height: 100vh;
+    background-image: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8));
+    color: black;
+}
+header .card{
+background: none !important;
+}
+#bio_image{
+    height: 20em;
+    width: 20em;
+}
+
+#about{
+    height: 80vh;
+}
+#education{
+    background: burlywood;
+    height: 55vh;
+}
+
+#skills{
+    background: cadetblue;
+    height: 55vh;
+}
+#resume{
+background: rgba(0, 149, 255, 0.095);
+height: 25vh;
+}
+/*
+header .card{
+    background: none;
+}
+/* nav{
+    background: transparent !important;
+} 
+#about,#projects,#contact{
+    height: 70vh;
+}
+
+#about-left{
+    border-right: 10px solid grey;
+}
+*/
+footer{
+    height: 30vh;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.6), rgba(255,255,255,0.5));
+}
