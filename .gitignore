@@ -2,3 +2,12 @@
 /projects
 /about
 *.txt
+
+/assets/webfonts/*
+/assets/css/bootstrap4.css
+/assets/css/fontawesome-all.min.css
+/assets/js/bootstrap4.js
+/assets/js/popper.min.js
+/assets/js/jquery-3.3.1.js
+/assets/js/jquery-migrate.js
+/assets/js/SmoothScroll.min.js

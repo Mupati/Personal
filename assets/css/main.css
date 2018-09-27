@@ -56,3 +56,11 @@ background: rgba(0, 149, 255, 0.095);
 .hvr-underline-from-left:active:before {
     right: 0;
 }
+
+label.line {
+    display: block;
+    background-color: #56b2e6;
+    width: 65px;
+    height: 3px;
+}
+
