@@ -1,9 +1,13 @@
+/* li.active a { color: red !important; background-color: white; } */
 a.hover{
     text-decoration-color: none;
 }
-.nav-link:hover, .nav-link:focus {
+/* .navbar-light .navbar-nav .nav-link.active {
+    background-color: magenta;
+} */
+.nav-link:hover, .nav-link:focus, .navbar-light .navbar-nav .nav-link.active {
     background-color: #56b2e6;
-    color: black;
+    /* color: rgba(0,0,0,0.5); */
 }
 .nav-pills .nav-link{
     border-radius: none !important;
@@ -20,36 +24,41 @@ a.hover{
 header{
     /* background-image: radial-gradient(rgba(0,0,0,0.3),rgba(95,158,160, 0.2), rgba(95,158,160, 0.7),rgba(0,0,0,0.3)); */
     background-image: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8));
-    color: black;
-}
+    color: black; 
+} 
 header .card{
 background: none !important;
 }
-.bg-def{
-    background-color: #56b2e6;
+header .card .card-body{
+    width: 30em;
 }
+
 #bio_image{
     height: 20em;
-    width: 20em;
+    width: 25em;
 }
 
 #projects{
-    background-image: url(/assets/img/bck.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(/assets/img/dev2.png);
+    background-repeat: repeat;
+    background-size: contain;
     background-clip: padding-box;
 }
-#education,#mailing,footer{
+#education,#mailing{
     background: rgba(0,0,0,0.5);
     /* height: 55vh; */
 }
 
-#skills{
+#skills,footer{
     background: cadetblue;
     /* height: 55vh; */
 }
 #resume,#social,#address{
 background: rgba(0, 149, 255, 0.095);
+}
+
+.bg-def{
+    background: cadetblue;
 }
 
 
