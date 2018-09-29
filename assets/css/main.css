@@ -39,19 +39,17 @@ header .card .card-body{
 }
 
 #projects{
-    background-image: url(/assets/img/dev2.png);
+    background-image: url(/assets/img/dev1.jpg);
     background-repeat: repeat;
     background-size: contain;
-    background-clip: padding-box;
+    /* background-clip: padding-box; */
 }
 #education,#mailing{
     background: rgba(0,0,0,0.5);
-    /* height: 55vh; */
 }
 
 #skills,footer{
     background: cadetblue;
-    /* height: 55vh; */
 }
 #resume,#social,#address{
 background: rgba(0, 149, 255, 0.095);
