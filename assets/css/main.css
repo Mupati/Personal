@@ -1,54 +1,54 @@
-/* li.active a { color: red !important; background-color: white; } */
-a.hover{
-    text-decoration-color: none;
+a{
+    color: #000;
 }
-/* .navbar-light .navbar-nav .nav-link.active {
-    background-color: magenta;
-} */
-.nav-link:hover, .nav-link:focus, .navbar-light .navbar-nav .nav-link.active {
-    background-color: #56b2e6;
-    /* color: rgba(0,0,0,0.5); */
+a:hover,h4 i{
+    text-decoration: none !important;
+    color: #56b2e6;
+}
+a.btn, button.btn, .form-control{
+    color: #000;
+    border: 1px dashed #56b2e6;
+    border-radius: 0 !important;
+    background-color: #fff;
+}
+
+#pills-tab li a{
+    color: #000;
+}
+#pills-tab li a.active{
+    color: #fff;
 }
 .nav-pills .nav-link{
-    border-radius: none !important;
+    border-radius: 0em !important;
 }
-.btn{
-    border-radius: none !important;
+
+.nav-link:hover, .nav-link:focus, .navbar-light .navbar-nav .nav-link.active, .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background-color: #56b2e6;
 }
-.btn:hover{
-    box-shadow: #000022 2px;
-}
-/* i:hover{
-    color: #56b2e6;
-} */
+
 header{
-    /* background-image: radial-gradient(rgba(0,0,0,0.3),rgba(95,158,160, 0.2), rgba(95,158,160, 0.7),rgba(0,0,0,0.3)); */
     background-image: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8));
     color: black; 
 } 
 header .card{
 background: none !important;
 }
-header .card .card-body{
-    width: 30em;
-}
 
 #bio_image{
-    height: 20em;
-    width: 25em;
+    height: 20rem;
+    width: 20rem;
 }
-
-#projects{
-    background-image: url(/assets/img/dev1.jpg);
-    background-repeat: repeat;
-    background-size: contain;
-    /* background-clip: padding-box; */
+@media (max-width: 320px) {
+    #bio_image{
+        height: 18rem;
+        width: 18rem;
+    }
 }
 #education,#mailing{
     background: rgba(0,0,0,0.5);
 }
 
-#skills,footer{
+#skills,footer,button.btn:hover,a.btn:hover,a.btn:active, button.btn:active{
     background: cadetblue;
 }
 #resume,#social,#address{
@@ -58,7 +58,9 @@ background: rgba(0, 149, 255, 0.095);
 .bg-def{
     background: cadetblue;
 }
-
+/* .bg-def-light{
+    background: rgba(0, 149, 255, 0.1)
+} */
 
 .hvr-underline-from-left{
     display: inline-block;
@@ -99,9 +101,7 @@ label.line {
     width: 65px;
     height: 3px;
 }
-.form-control{
-    border-radius: none !important;
-}
+
 textarea{
     height: 13em;
 }
