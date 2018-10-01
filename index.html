@@ -5,18 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Kofi Obrasi Ocran</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <!-- <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/bootstrap4.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/fontawesome-all.min.css" /> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/bootstrap4.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant">
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/main.css" />
-    <style>
-        body{
-            position: relative;
-        }
-    </style>
 
 </head>
 <body data-spy="scroll" data-target="#topNav">
@@ -26,7 +22,7 @@
     <!-- <div class="container"> -->
     <nav class="navbar navbar-expand-md fixed-top py-sm-4 py-md-2 navbar-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNav" aria-controls="topNav" aria-expanded="true" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="fas fa-2x fa-bars"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-around" id="topNav">
             <ul class="navbar-nav flex-row justify-content-around mt-4">	
@@ -44,7 +40,7 @@
                 <div class="card pt-5 pb-3 mx-auto">
                     <img class="card-img-top mx-auto" src="/assets/img/obrasi.jpg" class="img img-fluid" id="bio_image" alt="Kofi Obrasi Ocran">
                     <div class="card-body text-center">
-                        <p class="card-text"><strong>Kofi Obrasi Ocran</strong></p>
+                        <h3 class="card-text"><strong>Kofi Obrasi Ocran</strong></h3>
                         <p class="card-text"><strong>Web Developer</strong> | Telecom Engineer | Wordsmith</p>
                         <a href="mailto:ocran.obrasi@gmail.com" class="mr-3" ><i class="fas fa-2x fa-envelope"></i></a>
                         <a href="https://github.com/Mupati" class="mx-3" target="_blank"><i class="fab fa-2x fa-github"></i></a>
@@ -66,10 +62,9 @@
             <label class="line mx-auto mb-3"></label>
             <div class="row">
                     <div class="col-md-8 offset-md-2 text-center py-3">
-                    <p><blockquote class="quote p-3"><i class="fas fa-quote-left float-left"></i><br>ch up to the ever growing needs of society. Making these 
-                        tools very match available to everyoneacross the divide of a class-based society is what I believe can bring about equitable 
-                        distribution of development in every society.<br>   <i class="fas fa-quote-right float-right"></i>
-                        <span class="blockquote-footer">Albert Einstein</span></blockquote></p>
+                    <p><blockquote class="quote p-3"><i class="fas fa-quote-left float-left"></i><br>I learned not to worry so much about the outcome, 
+                        but to concentrate on the step I was  on and to try to do it as perfectly as I could when I was doing it.<br><br><i class="fas fa-quote-right float-right"></i>
+                        <span class="blockquote-footer">Steve Wozniak</span></blockquote></p>
                     <!-- </div> -->
                     <!-- <div class="clearfix"></div> -->
                     <!-- <div class="col-md-8 md-offset-2 text-center"> -->
@@ -85,6 +80,25 @@
                 
             </div>
             <div class="row">
+                <div class="col-md-6 py-5" id="skills">
+                        <h3>Skills</h3>
+                        <dl>
+                            <dt>Tech Stacks</dt>
+                            <dd>JavaScript(Jquery/VueJs), PHP(Laravel), Python(Flask)</dd>
+                        </dl>
+                        <dl>
+                            <dt>Databases</dt>
+                            <dd>MySQL, Postgres, Devless(BaaS)</dd>
+                        </dl>
+                        <dl>
+                            <dt>Infrastructure & Version Control</dt>
+                            <dd>Linux, Heroku, Git</dd>
+                        </dl>
+                        <dl>
+                            <dt>Engineering</dt>
+                            <dd>Transmission Equipments(Aviat,Huawei,Ericsson,Nokia), Huawei &amp; Ericsson Base Stations</dd>
+                        </dl>
+                </div>
                 <div class="col-md-6 py-5" id="education">
                     <h3>Education</h3>
                     <dl>
@@ -96,25 +110,7 @@
                         <dd>General Science</dd>
                     </dl>
                 </div>
-                <div class="col-md-6 py-5" id="skills">
-                    <h3>Skills</h3>
-                    <dl>
-                        <dt>Tech Stacks</dt>
-                        <dd>JavaScript(Jquery/VueJs), PHP(Laravel), Python(Flask)</dd>
-                    </dl>
-                    <dl>
-                        <dt>Databases</dt>
-                        <dd>MySQL, Postgres, Devless(BAAS)</dd>
-                    </dl>
-                    <dl>
-                        <dt>Infrastructure & Version Control</dt>
-                        <dd>Heroku, Git</dd>
-                    </dl>
-                    <dl>
-                        <dt>Engineering</dt>
-                        <dd>Transmission Equipments(Aviat,Huawei,Ericsson,Nokia), Huawei &amp; Ericsson Base Stations</dd>
-                    </dl>
-                </div>
+                
             </div>
             <div class="row">
                 <div class="col-md-12 md-offset-4 text-center py-5" id="resume">
@@ -154,7 +150,7 @@
                 <div class="d-flex flex-wrap flex-row">
                 <div class="col-md-4 mb-4 mb-md-4">
                     <div class="card">
-                        <img class="card-img-top" src="/assets/img/obrasi.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="/assets/img/apoga.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Apoga Entertainment Studios</h5>
                             <p class="card-text"> Materializecss, JQuery, Devless</p>
@@ -164,7 +160,7 @@
                 </div>
                 <div class="col-md-4 mb-4 mb-md-4">
                     <div class="card">
-                        <img class="card-img-top" src="/assets/img/obrasi.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="/assets/img/multi.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Multiview Designs Ltd.</h5>
                             <p class="card-text"> Bootstrap4, JQuery, Devless</p>
@@ -174,7 +170,7 @@
                 </div>
                 <div class="col-md-4 mb-4 mb-md-4">
                     <div class="card">
-                        <img class="card-img-top" src="/assets/img/obrasi.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="/assets/img/khm.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Kingdom Harvesters Ministries</h5>
                             <p class="card-text"> Bootstrap4,  JQuery, Devless</p>
@@ -184,7 +180,7 @@
                 </div>
                 <div class="col-md-4 mb-4 mb-md-4">
                     <div class="card">
-                        <img class="card-img-top" src="/assets/img/obrasi.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="/assets/img/quick.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">QuickMed</h5>
                             <p class="card-text"> Bootstrap3, JQuery, PHP (Laravel), Heroku</p>
@@ -194,7 +190,7 @@
                 </div>
                 <div class="col-md-4 mb-4 mb-md-4">
                     <div class="card">
-                        <img class="card-img-top" src="/assets/img/obrasi.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="/assets/img/soteria.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Soteria</h5>
                             <p class="card-text"> Bootstrap4, VueJs, Devless</p>
@@ -204,7 +200,7 @@
                 </div> 
                 <div class="col-md-4 mb-4 mb-md-4">
                     <div class="card">
-                        <img class="card-img-top" src="/assets/img/obrasi.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="/assets/img/wesley.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Wesley Church</h5>
                             <p class="card-text"> Bootstrap3, JQuery, PHP (Laravel), Heroku</p>
@@ -219,7 +215,7 @@
                 <div class="d-flex flex-wrap flex-row">
                     <div class="col-md-4 mb-4 mb-md-4">
                         <div class="card">
-                            <img class="card-img-top" src="/assets/img/obrasi.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="/assets/img/apoga.png" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Apoga Entertainment Studios</h5>
                                 <p class="card-text"> Materializecss, JQuery, Devless</p>
@@ -229,7 +225,7 @@
                     </div>
                     <div class="col-md-4 mb-4 mb-md-4">
                         <div class="card">
-                            <img class="card-img-top" src="/assets/img/obrasi.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="/assets/img/khm.png" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Kingdom Harvesters Ministries</h5>
                                 <p class="card-text"> Bootstrap4,  JQuery, Devless.</p>
@@ -243,7 +239,7 @@
                 <div class="d-flex">
                     <div class="col-md-4 mb-4 mb-md-4">
                         <div class="card">
-                            <img class="card-img-top" src="/assets/img/obrasi.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="/assets/img/multi.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Multiview Designs Ltd.</h5>
                                 <p class="card-text"> Bootstrap4, JQuery, Devless</p>
@@ -258,7 +254,7 @@
                 <div class="d-flex flex-row flex-wrap">
                     <div class="col-md-4 mb-4 mb-md-4">
                         <div class="card">
-                            <img class="card-img-top" src="/assets/img/obrasi.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="/assets/img/quick.png" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">QuickMed</h5>
                                 <p class="card-text"> Bootstrap3, JQuery, PHP (Laravel), Heroku</p>
@@ -268,7 +264,7 @@
                     </div>
                     <div class="col-md-4 mb-4 mb-md-4">
                         <div class="card">
-                            <img class="card-img-top" src="/assets/img/obrasi.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="/assets/img/soteria.png" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Soteria</h5>
                                 <p class="card-text"> Bootstrap4, VueJs, Devless</p>
@@ -278,7 +274,7 @@
                     </div>
                     <div class="col-md-4 mb-4 mb-md-4">
                         <div class="card">
-                            <img class="card-img-top" src="/assets/img/obrasi.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="/assets/img/wesley.png" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Wesley Church</h5>
                                 <p class="card-text"> Bootstrap3, JQuery, PHP (Laravel), Heroku</p>
@@ -331,25 +327,26 @@
                 <div class="clearfix"></div>
             </div>
             <h3 class="my-3 text-center"><strong>Leave A Message</strong></h3>
+            <p class="text-danger text-center">All fields are <strong>Required</strong></p>
             <div class="row my-3">
                 <div class="col-md-8 offset-md-2 mt-3">
-                    <form role="form">
+                    <form role="form" class="dv-add-oneto:Personal:contact">
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label role="name" class="control-label text-left">Name</label>
-                                    <input type="text" class="form-control" required="true"> 
+                                    <input type="text" class="form-control" required="true" id="name"> 
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label role="email" class="control-label text-left">Email</label>
-                                    <input type="email" class="form-control" required="true">
+                                    <input type="email" class="form-control" required="true" id="email">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label role="comment" class="control-label text-left">Message</label>
-                                <textarea class="form-control" required="true"></textarea> 
+                                <textarea class="form-control" required="true" id="comment"></textarea> 
                             </div>
                             <div class="d-flex justify-content-center mt-3 py-2 px-5">
-                                <button type="submit" class="btn" >Send Message</button>
+                                <button type="submit" class="btn" id="msg">Send Message <i class="fas fa-comment-dots"></i></button>
                             </div>
                     </form>
 
@@ -373,45 +370,19 @@
     <!--end of footer section// -->
 
     <!-- 3rd Party JavaScript Libraries     -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
-    <!-- <script src="/assets/js/jquery-3.3.1.js"></script>
+    <script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script> -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="/assets/js/jquery-3.3.1.js"></script>
     <script src="/assets/js/jquery-migrate.js"></script>
     <script src="/assets/js/bootstrap4.js"></script>
-    <script src="/assets/js/popper.min.js"></script> -->
-    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/popper.min.js"></script>
     <script src="/assets/js/SmoothScroll.min.js"></script>
-     <script>
-        $(document).ready(function(){
-            $(".navbar-nav li a").on('click', function(event) {
-            if (this.hash !== "") {
-                event.preventDefault();
-                var hash = this.hash;
-                $('html, body').animate({
-                scrollTop: $(hash).offset().top
-                }, 800, function(){
-                if(hash == '#home'){
-                    hash = ''
-                }
-                window.location.hash = hash;
-                });
-            }
-            });
-        });
-    </script>
-    <script>
-        $(window).scroll(function() {    
-            var scroll = $(window).scrollTop();
-            if (scroll >= 50) {
-                $("nav").addClass("bg-def");
-                // $("nav").removeClass("bg-def-light");
-            } else {
-                $("nav").removeClass("bg-def");
-                // $("nav").addClass("bg-def-light");
-            }
-        });
-    </script>
+    <script src="/assets/js/dv_sdk.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
 </body>
 </html>

@@ -1,3 +1,12 @@
+body{
+    position: relative;
+    font-family: Cochin, 'Times New Roman', serif;
+}
+
+p{
+    font-family: Cormorant;
+    font-size: 17px;
+}
 a{
     color: #000;
 }
@@ -33,7 +42,12 @@ header{
 header .card{
 background: none !important;
 }
-
+#projects .card:hover{
+   box-shadow: 0 10px 20px rgba(0,0,0,0.09), 0 6px 6px rgba(0,0,0,0.13);
+}
+#pills-tabContent .card img{
+    height: 14rem;
+}
 #bio_image{
     height: 20rem;
     width: 20rem;
