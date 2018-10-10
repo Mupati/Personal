@@ -45,6 +45,7 @@ $(document).ready(function(){
         };
     
         SDK.addData("Personal", "contact", data,  function(res){
+            // console.log(JSON.stringify(res));
             if(res.status_code == 609){
                 swal("Submission Successful", "Your Message has been Received, Thank You!", "success");
                 $('#name').val(""); $('#email').val(""); $('#comment').val("");
