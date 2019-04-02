@@ -43,11 +43,24 @@ button.btn,
 }
 
 header {
-  background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+  background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(25, 72, 90, 0.322));
+  background: url('../img/bg.svg') 10px;
+  /* background-size: cover; */
   color: black;
+  position: relative;
+}
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  opacity: 0.3;
 }
 header .card {
-  background: none !important;
+  background: cadetblue;
 }
 #projects .card:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.09), 0 6px 6px rgba(0, 0, 0, 0.13);
@@ -56,12 +69,10 @@ header .card {
   height: 14rem;
 }
 #bio_image {
-  height: 20rem;
   width: 20rem;
 }
 @media (max-width: 320px) {
   #bio_image {
-    height: 18rem;
     width: 18rem;
   }
 }
