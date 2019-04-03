@@ -44,7 +44,7 @@ button.btn,
 
 header {
   background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(25, 72, 90, 0.322));
-  background: url('../img/bg.svg') 10px;
+  background: url('../img/dev2.jpg');
   /* background-size: cover; */
   color: black;
   position: relative;
@@ -73,7 +73,10 @@ header .card {
 }
 @media (max-width: 320px) {
   #bio_image {
-    width: 18rem;
+   width: 15rem;
+  }
+  header {
+    background: url('../img/dev2.jpg');
   }
 }
 #education,
