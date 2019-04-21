@@ -1,10 +1,9 @@
 body {
   position: relative;
-  font-family: Cochin, "Times New Roman", serif;
+  font-family: 'Lato', sans-serif;
 }
 
 p {
-  font-family: Cormorant;
   font-size: 17px;
 }
 a {
