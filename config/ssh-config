@@ -1,9 +1,0 @@
-Host devcodes.co
-  HostName 192.0.2.1
-  IdentityFile ~/.ssh/id_reflect_website
-  User root
-
-Host devcodes.co
-  HostName 192.0.2.2
-  IdentityFile ~/.ssh/id_reflect_website
-  User root
