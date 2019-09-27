@@ -1,36 +1,45 @@
 * {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
 body {
   background: #eff1f5;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  font-family: "Slabo 27px", serif;
+  color: #222222;
 }
-
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
-  background: #224e65;
-  min-height: 60vh;
-  padding: 0 15em;
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2em;
+  word-spacing: 3px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 1s ease;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline-block;
+}
+em {
+  font-size: 15px;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #fff;
 }
 nav {
   background: #224e65;
+  border-radius: 5px;
 }
-/* header::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.6) !important;
-} */
 nav h2 {
   color: #fff;
   z-index: 1;
@@ -41,6 +50,7 @@ nav h2 {
 nav ul {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding: 2em 0;
 }
 nav ul li {
@@ -48,6 +58,16 @@ nav ul li {
   font-size: 20px;
   color: #fff;
   font-weight: 700;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background: #224e65;
+  min-height: 60vh;
+  padding: 8em 0;
 }
 header img {
   display: block;
@@ -57,19 +77,138 @@ header img {
 }
 header ul {
   display: flex;
-  justify-self: space-around;
+  justify-content: space-between;
   margin-top: 2em;
-  /* max-width: 768px; */
 }
-header ul li a {
-  color: #fff;
+header ul li {
+  margin-left: 20px;
 }
 
-main {
+/* main {
   display: grid;
   grid-gap: 50px;
+} */
+section {
+  /* min-height: 50vh; */
+  padding: 5%;
+  margin: 2.5% 0;
+}
+/* #about {
+  background: ;
+} */
+#projects {
+  background: #222d65;
+  color: #fff;
+  /* opacity: 0.2; */
+}
+#list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-gap: 1rem;
+  /* grid-template-columns: auto auto auto;
+  grid-gap: 10px; */
+}
+#open-source {
+  background: #22655b;
+  color: #fff;
+  /* opacity: 0.2; */
 }
 
-li {
-  display: inline-block;
+footer {
+  background: #224e65;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 25px;
+  padding: 1.5em;
 }
+
+/* classes */
+.icon {
+  height: 32px;
+  width: 32px;
+}
+.resume {
+  margin-top: 2.5em;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.project {
+  padding: 2em 0.5em;
+  border: 2px solid #fff;
+  /* width: 300px; */
+}
+
+.tech-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+.tech {
+  display: block;
+  border: 1px solid #eee;
+  text-align: center;
+  padding: 2em 0;
+  font-size: 20px;
+}
+.oss-link {
+  color: #222d65;
+}
+.oss-link:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.project-link {
+  text-decoration: underline;
+  float: right;
+  margin-right: 20px;
+}
+.project-inner-link {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 1.5em 0;
+  }
+  section {
+    padding: 4% 2%;
+  }
+  #list {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+/* <ul>
+<li>Mentoring</li>
+<li>Frontend</li>
+<li>Payment Integration</li>
+<li>Manage Remote Team</li>
+<li>Backend</li>
+<li>Webmaster</li>
+<li>Analytics</li>
+<li>Networking</li>
+<li>Client Support</li>
+<li>Pair Programming</li>
+<li>Bug Fixes on existing codebase</li>
+</ul> */
+
+/* <p>
+Sass, Bootstrap4/Bootstrapvue, Ant Design, Material Design, Semantic
+Vue
+</p>
+<p>
+Peg Dashboard, QuickMed (soteria.netlify.com/quickmed) for Devless,
+Multiview Designs, Blog (devcodes.co)
+</p>
+<p>
+Open Source (Tensorwerk), Semantic UI Vue,
+</p>
+<p>Google Cloud, Computer Vision</p> */
+
+/* <p>
+Hair Couture, Arcadian, Ek Portal, Ek-core api, Laravel, Akai House,
+Syde Hassle, Flyezi, Blog, Sbjproperties, Mintorganiccare, Ghana Will
+Prosper, Nyametease, Afrijourney
+</p> */
